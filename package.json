@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha",
     "build": "mkdir -p dist && cp index.js dist/ && cp -r lib dist/",
-    "start": "node oauth2example/app.js"
+    "start": "node ./oauth2example/app.js"
   },
   "keywords": [
     "Intuit",
