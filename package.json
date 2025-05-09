@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "build": "mkdir -p dist && cp index.js dist/ && cp -r lib dist/"
+    "build": "mkdir -p dist && cp index.js dist/ && cp -r lib dist/",
+    "start": "node oauth2example/app.js"
   },
   "keywords": [
     "Intuit",
@@ -17,7 +18,7 @@
   "dependencies": {
     "bluebird": "3.3.4",
     "date-fns": "^2.9.0",
-    "fast-xml-parser": "^4.3.2"
+    "fast-xml-parser": "^4.3.2",
     "querystring": "0.2.0",
     "request": "2.88.0",
     "request-debug": "0.2.0",
