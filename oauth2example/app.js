@@ -30,8 +30,8 @@ app.listen(app.get('port'), function () {
 
 // INSERT YOUR CONSUMER_KEY AND CONSUMER_SECRET HERE
 
-var consumerKey = '';
-var consumerSecret = '';
+var consumerKey = 'ABbquctIhSkjkFvKJbIFq0DJjWSzvfnRPnUf63P88s7J9sqni4';
+var consumerSecret = 'BCS2qM6wReKxtrI8z1r136NllvXTuqKFkPsQqM2f';
 
 app.get('/', function (req, res) {
   res.redirect('/start');
