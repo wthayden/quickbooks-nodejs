@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "build": ""
+    "build": "echo \"No build step required\""
   },
   "keywords": [
     "Intuit",
